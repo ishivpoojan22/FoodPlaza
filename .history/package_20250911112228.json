@@ -1,0 +1,14 @@
+{
+  "name": "episode-3",
+  "version": "1.0.0",
+  "description": "making a website by poojan",
+  "main": "App.js",
+  "scripts": {
+    "start"
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
