@@ -95,3 +95,8 @@
   gap: 20px;
   padding: 7px 0px;
 }
+
+.user-name{
+  border: solid black 1px;
+  padding: 10px;
+}
