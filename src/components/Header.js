@@ -3,6 +3,7 @@ import { LOGO_URL } from "../utils/constant";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import userContext from "../utils/userContext";
+import { useSelector } from "react-redux";
 
 const Header = () => {
   // let btnName = "Log in";
@@ -12,6 +13,8 @@ const Header = () => {
   const onlineStatus = useOnlineStatus();
 
   const data = useContext(userContext);
+
+  const cartItems = useSelector((store) => store.cart.items)
 
   return (
     <div className="header">
@@ -39,7 +42,10 @@ const Header = () => {
             <li className="m-4 border rounded-lg px-2 bg-green-200 transition-transform duration-200 transform hover:scale-105 shadow">
               <Link to="/grocery">Grocery</Link>
             </li>
-            <li className="m-4">Cart</li>
+            <li className="m-4 border rounded-lg px-2 bg-green-200 transition-transform duration-200 transform hover:scale-105 shadow">
+              <Link to="/cart">Cart - ({cartItems.length})items</Link>
+            </li>
+            {/* <li className="m-4 font-bold text-xl"> Cart - ({cartItems.length})items</li> */}
             <button
               className="m-4 cursor-pointer border rounded-xl px-6 bg-green-200 transition-transform duration-200 transform hover:scale-105 shadow"
               onClick={() => {

@@ -1,10 +1,12 @@
 import { useState } from "react";
 import ItemList from "./ItemList";
 
-const RestaurantCategory = ({ data, showItems, setShowIndex }) => {
+const RestaurantCategory = ({ data, showItems, setShowIndex, dummy }) => {
   // const [showItems, setShowItems] = useState(false);
   //   console.log(data);
   // Uncontrolled component
+
+  // console.log(dummy)
   const changeHandler = () => {
       setShowIndex()
   };
@@ -22,7 +24,7 @@ const RestaurantCategory = ({ data, showItems, setShowIndex }) => {
           </span>
           <span>⬇️</span>
         </div>
-        {showItems && <ItemList items={data.itemCards} />}
+        {showItems && <ItemList items={data.itemCards} dummy={dummy} />}
       </div>
     </div>
   );
