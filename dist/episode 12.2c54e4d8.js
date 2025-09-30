@@ -27218,9 +27218,9 @@ const Body = ()=>{
     }, []);
     const fetchData = async ()=>{
         try {
-            const url1 = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9352403&lng=77.624532&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
-            const url2 = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=27.2388471&lng=78.16214370000002&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
-            const url3 = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.7040592&lng=77.10249019999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+            const url1 = "https://corsproxy.io/https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9352403&lng=77.624532&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+            const url2 = "https://corsproxy.io/https://www.swiggy.com/dapi/restaurants/list/v5?lat=27.2388471&lng=78.16214370000002&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+            const url3 = "https://corsproxy.io/https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.7040592&lng=77.10249019999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
             const [res1, res2, res3] = await Promise.all([
                 fetch(url1),
                 fetch(url2),
