@@ -4,6 +4,8 @@
   "description": "making a website by poojan",
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "vercel-build": "parcel build index.html",
     "test": "jest"
   },
   "keywords": [],
