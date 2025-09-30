@@ -1,0 +1,54 @@
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.logo {
+  height: 100px;
+}
+
+.nav-list {
+  margin-top: 20px;
+}
+
+.nav-list ul {
+  gap: 30px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  list-style-type: none;
+  display: flex;
+}
+
+.search {
+  padding: 20px;
+}
+
+.res-card {
+  width: 200px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.res-logo {
+  width: 100%;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.res-btn {
+  cursor: pointer;
+  margin: 10px;
+}
+/*# sourceMappingURL=episode 4.aa436662.css.map */

@@ -1,0 +1,2 @@
+var e=globalThis.parcelRequire585f;(0,e.register)("loR3J",function(r,o){Object.defineProperty(r.exports,"__esModule",{value:!0,configurable:!0}),Object.defineProperty(r.exports,"default",{get:()=>l,set:void 0,enumerable:!0,configurable:!0});var t=e("ayMG0"),l=()=>(0,t.jsx)(t.Fragment,{children:(0,t.jsx)("h1",{children:"welcome to our Grocery department, we will update our service soon."})})});
+//# sourceMappingURL=Grocery.9fe4ae09.js.map
