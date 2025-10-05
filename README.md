@@ -144,8 +144,3 @@ Contributing steps
 
 This project doesn't include an explicit license in the repo. If you want to open-source it, add a `LICENSE` file (MIT is a common choice).
 
-<<<<<<< HEAD
----
-=======
----
->>>>>>> 1c3cec8484e57fbbf15ce92d13cccf3a28cba43b
